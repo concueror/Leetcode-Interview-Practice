@@ -25,4 +25,4 @@ jobs:
       - name: Build
         run: dotnet build Runner/LeetcodeInterviewPractice/LeetcodeInterviewPractice.sln --no-restore
       - name: Test
-        run: dotnet test Runner/LeetcodeInterviewPractice/LeetcodeInterviewPractice.sln --no-restore --verbosity normal
+        run: dotnet test Problems/Leetcode.Problems.DotNet.csproj --no-restore --verbosity normal
