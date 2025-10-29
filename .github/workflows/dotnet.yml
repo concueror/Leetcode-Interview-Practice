@@ -24,7 +24,7 @@ jobs:
         run: dotnet restore Runner/LeetcodeInterviewPractice/LeetcodeInterviewPractice.sln
       - name: Build
         run: dotnet build Runner/LeetcodeInterviewPractice/LeetcodeInterviewPractice.sln --no-restore
-      - name: Algorithmic Tests
-        run: dotnet test Problems/Leetcode.Problems.Database.csproj --no-restore --verbosity normal
       - name: Database Tests
+        run: dotnet test DatabaseProblems/Leetcode.Problems.Database.csproj --no-restore --verbosity normal
+      - name: Algorithmic Tests
         run: dotnet test Problems/Leetcode.Problems.DotNet.csproj --no-restore --verbosity normal
