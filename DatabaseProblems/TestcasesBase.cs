@@ -2,7 +2,7 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 
-namespace Leetcode.Problems.Database._175_Combine_Two_Tables;
+namespace Leetcode.Problems.Database;
 
 public abstract class TestcasesBase<TContext> where TContext : DbContext
 {

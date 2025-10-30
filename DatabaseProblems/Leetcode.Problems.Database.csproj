@@ -14,4 +14,8 @@
         <PackageReference Include="NUnit3TestAdapter" Version="5.2.0" />        
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="176-Second-Highest-Salary\Models\" />
+    </ItemGroup>
+
 </Project>
